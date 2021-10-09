@@ -175,7 +175,7 @@ body{
 }
 .messageSender__option:hover{
     cursor: pointer;
-    background: #b9b9b9;
+    background: #9ba9f069;
     border-radius: 10px;
 }
 /* Post */
@@ -216,7 +216,6 @@ body{
     justify-content: space-evenly;
     font-size: 14px;
     color: #A6A6A7;
-    cursor: pointer;
     padding: 10px;
 }
 .post__option{
@@ -225,6 +224,7 @@ body{
     justify-content: center;
     padding: 5px;
     flex: 1;
+    cursor: pointer;
 }
 .post__option p{
     margin-left: 10px;
