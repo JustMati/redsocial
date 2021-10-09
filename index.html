@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Social | Prueba</title>
+    <!-- Css / Estilos -->
+    <link rel="stylesheet" href="./assets/css/probando.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/mundo.png" type="image/x-icon">
+    <!-- Kit Awesome -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__left">
+            <a href="#">
+                <img src="./assets/img/mundo.png" alt="Mi mundo social" width="40">
+            </a>
+            <div class="header__input">
+                <span class="material-icons">search</span>
+                <input type="text" placeholder="Buscar tus amigos">
+            </div>
+        </div>
+        <div class="header__middle">
+            <div class="header__option active">
+                <span class="material-icons">home</span>
+            </div>
+            <div class="header__option">
+                <span class="material-icons">email</span>
+            </div>
+            <div class="header__option">
+                <span class="material-icons">notifications</span>
+            </div>
+        </div>
+        <div class="header__right">
+            <div class="header__info">
+                <a href="#">
+                    <img class="user__avatar" src="./assets/img/Soma.jpg" alt="Perfil">
+                </a>
+                <a href="#">
+                    <h4 class="header__info-title">Matthew Franco</h4>
+                </a>
+            </div>
+            <span class="material-icons">logout</span>
+        </div>
+    </header>
+    <!-- sidebar left -->
+    <div class="sidebar__left">
+        <div class="sidebar">
+            <div class="sidebarRow">
+                <a href="#">
+                    <img class="user__avatar" src="./assets/img/Soma.jpg" alt="Perfil">
+                </a>
+                <a href="#">
+                    <h4 class="sidebarRow__title">Matthew Franco</h4>
+                </a>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-icons"> email </span>
+                <h4 class="sidebarRow__title">Chat</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-icons">people</span>
+                <h4 class="sidebarRow__title">Amigos</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-icons">flag</span>
+                <h4 class="sidebarRow__title">Noticias</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-icons">favorite</span>
+                <h4 class="sidebarRow__title">Me gusta</h4>
+            </div>
+        </div>
+            <!-- feed -->
+        <div class="feed">
+            <!-- publicacion -->
+            <div class="messageSender">
+                <div class="messageSender__top">
+                    <a href="#">
+                        <img class="user__avatar" src="./assets/img/Soma.jpg" alt="Perfil">
+                    </a>
+                    <form action="#">
+                        <input type="text" class="messageSender__input" placeholder="¿Qué estás pensando, Matthew Franco?">
+                    </form>
+                </div>
+                <div class="messageSender__bottom">
+                    <div class="messageSender__option">
+                        <span class="material-icons" style="color: green;">collections</span>
+                        <h3>Foto</h3>
+                    </div>
+                    <div class="messageSender__option">
+                        <span class="material-icons" style="color: yellow;">insert_emoticon</span>
+                        <h3>Emoji</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post__top">
+                    <a href="#">
+                        <img class="user__avatar post__avatar" src="./assets/img/Soma.jpg" alt="Perfil">
+                    </a>
+                    <div class="post__topInfo">
+                        <a href="#">
+                            <h3>Matthew Franco</h3>
+                        </a>
+                        <p>08 Octubre, 19:25</p>
+                    </div>
+                </div>
+                <div class="post__bottom">
+                    <p>Actualizando perfil de Soma</p>
+                </div>
+                <div class="post__image">
+                    <img src="./assets/img/Soma.jpg" alt="">
+                </div>
+                <div class="post__options">
+                    <div class="post__option">
+                        <span class="material-icons">thumb_up</span>
+                        <p>Me gusta</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-icons">chat_bubble_outline</span>
+                        <p>Comentar</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-icons">share</span>
+                        <p>Compartir</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widgets" style="flex: 0.35;">
+            <div class="fb-video" data-href="https://www.facebook.com/facebook/videos/10153231379946729/" data-width="300" data-show-text="false"><blockquote cite="https://www.facebook.com/facebookapp/videos/10153231379946729/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebookapp/videos/10153231379946729/">How to Share With Just Friends</a><p>How to share with just friends.</p>Publicado por <a href="https://www.facebook.com/facebookapp/">Facebook App</a> en Viernes, 5 de diciembre de 2014</blockquote></div>
+        </div>
+    </div>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="XpevahR1"></script>
+</body>
+</html>
