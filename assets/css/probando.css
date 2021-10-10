@@ -51,7 +51,7 @@ body{
 .header__option{
     display: flex;
     align-items: center;
-    padding: 8px 25px;
+    padding: 8px 35px;
     margin: 0 4px;
     cursor: pointer;
     border-radius: 10px;
@@ -59,7 +59,7 @@ body{
 }
 .header__option.active{
     border-radius: 0;
-    margin: 4px 0 -4px 0;
+    margin: 0px 0 -4px 0;
     border-bottom: 4px solid #9BA9F0;
 }
 .header__option.active:hover{
@@ -67,6 +67,27 @@ body{
 }
 .header__option:hover{
     background: #9ba9f069;
+}
+/* flotante */
+.header__option-title{
+    position: absolute;
+    padding: 5px 6px;
+    margin-top: 85px;
+    margin-left: -8px;
+    background: #9ba9f069;
+    color: #A6A6A7;
+    font-size: 12px;
+    border-radius: 10px;
+    display: none;
+}
+.message{
+    margin-left: -15px;
+}
+.notification{
+    margin-left: -30px;
+}
+.header__option:hover .header__option-title{
+    display: block;
 }
 /*header info*/
 .header__info{
@@ -233,6 +254,32 @@ body{
     background: #9ba9f069;
     border-radius: 10px;
 }
+/* List */
+.list{
+    flex: 0.35;
+    padding: 25px 10px;
+}
+.list__title{
+    color: #8e8e8f;
+    margin-top: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list__friends-perfils{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.list__friends-perfils:hover{
+    background: lightgray;
+    border-radius: 10px;
+}
+.list__friends-title{
+    margin-left: 20px;
+    color: #A6A6A7;
+}
+
 @media (max-width: 1024px){
     .feed{
         width: 50%;
@@ -250,7 +297,7 @@ body{
     .sidebar{
         display: none;
     }
-    .widgets{
+    .list{
         display: none;
     }
     .feed{
